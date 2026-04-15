@@ -45,9 +45,7 @@ const bookStore = {
 
 // Write your code here!
 
-const { createElement } = require("react");
-
-const bookList = document.getElementById('header');
+const bookList = document.getElementById('book-list');
 
 bookStore.books.forEach((book) => {
     const bookContainer = document.createElement('li');
